@@ -13,7 +13,7 @@ dia, mes, año = (data.split('/'))
 if int(mes) >= 1 or int(mes) <=12:
   if int(mes) in (1, 3, 5, 7, 8, 10, 12):
     int(dia) <= 31
-  if int(mes) in (4, 6, 9, 11):
+  elif int(mes) in (4, 6, 9, 11):
       int(dia) <=30
 
 
